@@ -1,0 +1,37 @@
+{
+  "name": "muplagamejs",
+  "version": "0.1.0",
+  "description": "A web-based Game library designed to work on all platforms by using the webbrowser",
+  "main": "index.js",
+  "scripts": {
+    "compile": "tsc src/index.ts",
+    "start": "webpack-dev-server --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lksfnd/MuPlaGameJS.git"
+  },
+  "keywords": [
+    "webgl",
+    "javascript",
+    "library",
+    "game",
+    "simulation"
+  ],
+  "engines": {
+    "node": ">=4.2.4"
+  },
+  "author": "Lukas Fend <fendlukas@pm.me> (lksfnd.space)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lksfnd/MuPlaGameJS/issues"
+  },
+  "homepage": "https://github.com/Lksfnd/MuPlaGameJS#readme",
+  "devDependencies": {
+    "ts-loader": "^6.0.4",
+    "typescript": "^3.6.2",
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.7",
+    "webpack-dev-server": "^3.8.0"
+  }
+}
